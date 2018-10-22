@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'trchjs' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of D:\test\package.json
+5 verbose installManyTop reading scoped package data from D:\test\node_modules\fmt\package.json
+6 verbose installManyTop reading scoped package data from D:\test\node_modules\fs\package.json
+7 verbose installManyTop reading scoped package data from D:\test\node_modules\http\package.json
+8 verbose installManyTop reading scoped package data from D:\test\node_modules\jsonwebtoken\package.json
+9 verbose installManyTop reading scoped package data from D:\test\node_modules\nom\package.json
+10 verbose installManyTop reading scoped package data from D:\test\node_modules\path\package.json
+11 verbose installManyTop reading scoped package data from D:\test\node_modules\querystring\package.json
+12 verbose installManyTop reading scoped package data from D:\test\node_modules\request\package.json
+13 verbose installManyTop reading scoped package data from D:\test\node_modules\url\package.json
+14 info package.json http@0.0.0 http is also the name of a node core module.
+15 info package.json http@0.0.0 No description
+16 info package.json http@0.0.0 No repository field.
+17 info package.json http@0.0.0 No README data
+18 info package.json fs@0.0.1-security fs is also the name of a node core module.
+19 info package.json querystring@0.2.0 querystring is also the name of a node core module.
+20 info package.json querystring@0.2.0 No license field.
+21 info package.json path@0.12.7 path is also the name of a node core module.
+22 info package.json nom@0.0.3 No repository field.
+23 info package.json nom@0.0.3 No license field.
+24 info package.json url@0.11.0 url is also the name of a node core module.
+25 verbose readDependencies loading dependencies from D:\test\package.json
+26 silly cache add args [ 'trchjs', null ]
+27 verbose cache add spec trchjs
+28 silly cache add parsed spec Result {
+28 silly cache add   raw: 'trchjs',
+28 silly cache add   scope: null,
+28 silly cache add   name: 'trchjs',
+28 silly cache add   rawSpec: '',
+28 silly cache add   spec: 'latest',
+28 silly cache add   type: 'tag' }
+29 silly addNamed trchjs@latest
+30 verbose addNamed "latest" is being treated as a dist-tag for trchjs
+31 info addNameTag [ 'trchjs', 'latest' ]
+32 silly mapToRegistry name trchjs
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'trchjs',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   name: 'trchjs',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/trchjs
+37 verbose addNameTag registry:https://registry.npmjs.org/trchjs not in flight; fetching
+38 verbose request uri https://registry.npmjs.org/trchjs
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 15:41:35
+41 verbose request id a201915dae1e29d1
+42 http request GET https://registry.npmjs.org/trchjs
+43 http 404 https://registry.npmjs.org/trchjs
+44 verbose headers { date: 'Wed, 26 Sep 2018 07:41:37 GMT',
+44 verbose headers   'content-type': 'application/json',
+44 verbose headers   'content-length': '21',
+44 verbose headers   connection: 'keep-alive',
+44 verbose headers   'set-cookie': [ '__cfduid=d9c12838acd6cf2a457c4c52431ab9c461537947696; expires=Thu, 26-Sep-19 07:41:36 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+44 verbose headers   'cf-cache-status': 'MISS',
+44 verbose headers   'cache-control': 'max-age=300',
+44 verbose headers   'cf-ray': '460416d0481e75d6-ARN',
+44 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+44 verbose headers   vary: 'accept-encoding, accept',
+44 verbose headers   server: 'cloudflare' }
+45 silly get cb [ 404,
+45 silly get   { date: 'Wed, 26 Sep 2018 07:41:37 GMT',
+45 silly get     'content-type': 'application/json',
+45 silly get     'content-length': '21',
+45 silly get     connection: 'keep-alive',
+45 silly get     'set-cookie': [ '__cfduid=d9c12838acd6cf2a457c4c52431ab9c461537947696; expires=Thu, 26-Sep-19 07:41:36 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+45 silly get     'cf-cache-status': 'MISS',
+45 silly get     'cache-control': 'max-age=300',
+45 silly get     'cf-ray': '460416d0481e75d6-ARN',
+45 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+45 silly get     vary: 'accept-encoding, accept',
+45 silly get     server: 'cloudflare' } ]
+46 verbose stack Error: Not found : trchjs
+46 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+46 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+46 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+46 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:199:22)
+46 verbose stack     at emitTwo (events.js:87:13)
+46 verbose stack     at Request.emit (events.js:172:7)
+46 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1036:10)
+46 verbose stack     at emitOne (events.js:82:20)
+46 verbose stack     at Request.emit (events.js:169:7)
+46 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:963:12)
+47 verbose statusCode 404
+48 verbose pkgid trchjs
+49 verbose cwd D:\test\node
+50 error Windows_NT 10.0.14393
+51 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "trchjs"
+52 error node v4.4.3
+53 error npm  v2.15.1
+54 error code E404
+55 error 404 Not found : trchjs
+55 error 404
+55 error 404 'trchjs' is not in the npm registry.
+55 error 404 You should bug the author to publish it (or use the name yourself!)
+55 error 404
+55 error 404 Note that you can also install from a
+55 error 404 tarball, folder, http url, or git url.
+56 verbose exit [ 1, true ]
