@@ -187,7 +187,7 @@ func main(){
 //闭包的特点
 	fmt.Println("直接调用方法")
 	fmt.Println(test1())
-	fmt.Println(test1())
+	fmt.Println(test1()) 天
 
 
 
